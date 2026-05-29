@@ -1,26 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
 # Virtual environment
-channelaffinity_new/
-
-# Data folders (raw + generated)
-data/**
-output/**
-
-# Notebook-generated artifacts
-notebooks/*.csv
-notebooks/*.joblib
-notebooks/*.pkl
-
-# Keep folder structure
-!data/.gitkeep
-!output/.gitkeep
+venv/
+.env/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# VS Code
-.vscode/
-
-# OS / misc
-.env/
+# OS
 .DS_Store
 Thumbs.db
+
+# VSCode
+.vscode/
+
+# Data
+data/raw/*.csv
+data/processed/*.csv
+
+# Models
+models/*.joblib
+
+# Logs
+*.log

@@ -1,6 +1,8 @@
-jupyter
 pandas
 numpy
 scikit-learn
+lightgbm
+joblib
 matplotlib
-xgboost
+seaborn
+steamlit
