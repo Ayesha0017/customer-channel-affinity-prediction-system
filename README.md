@@ -14,7 +14,15 @@ This project builds both:
 The final system recommends the best communication channel for each customer and provides channel-level budget allocation insights.
 
 ---
+## Live Demo
 
+Streamlit Application:
+https://customer-channel-affinity-prediction-system-8yqtv7adew44hpljha.streamlit.app/
+
+GitHub Repository:
+https://github.com/Ayesha0017/customer-channel-affinity-prediction-system
+
+---
 ## Business Problem
 
 Given a customer's historical behavior:
@@ -189,6 +197,18 @@ Baseline Random Accuracy:
 * 14.3%
 
 ---
+## Final Performance Summary
+
+| Metric | Rule-Based | LightGBM |
+|----------|----------|----------|
+| Top-1 Accuracy | 29.3% | 33.5% |
+| Top-3 Accuracy | 63.3% | 70.4% |
+| Lift Over Random | 2.1x | 2.3x |
+| Macro F1 | — | 0.339 |
+
+The LightGBM framework outperformed the rules-based baseline across every channel and demonstrated stable generalization on a completely unseen temporal holdout period.
+
+---
 
 ## Key Findings
 
@@ -229,6 +249,22 @@ An interactive dashboard was developed for:
 * Model performance monitoring
 * Budget allocation simulation
 * Marketing planning
+
+---
+
+## Dashboard Preview
+
+### Executive Overview
+
+![Overview Dashboard](reports/dashboard_overview.png)
+
+### Customer Explorer
+
+![Customer Explorer](reports/customer_explorer.png)
+
+### Budget Allocation Simulator
+
+![Budget Allocation](reports/budget_simulator.png)
 
 ---
 
