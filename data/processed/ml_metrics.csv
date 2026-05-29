@@ -1,0 +1,2 @@
+accuracy,top3_accuracy,macro_f1,cv_accuracy
+0.335,0.7042,0.3387,0.3412754229273528

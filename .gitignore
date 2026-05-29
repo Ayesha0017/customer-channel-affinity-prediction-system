@@ -17,9 +17,17 @@ Thumbs.db
 # VSCode
 .vscode/
 
-# Data
+# Raw data
 data/raw/*.csv
+
+# Processed data
 data/processed/*.csv
+
+# Keep dashboard files
+!data/raw/customers.csv
+!data/processed/ml_predictions.csv
+!data/processed/ml_metrics.csv
+!data/processed/rule_based_metrics_test.csv
 
 # Models
 models/*.joblib
